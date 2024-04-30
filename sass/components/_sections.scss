@@ -1,0 +1,65 @@
+/* Section Styles */
+
+.colMain {
+	min-height: 100vh;
+	max-height: auto;
+	background-color: rgba(255, 255, 255, 1);
+}
+.colAside {
+	min-height: 100vh;
+	max-height: auto;
+	color: #fff;
+	background-color: rgba(0, 0, 0, .7);
+	padding: 0;
+}
+.blkOverlay {
+	background-color: rgba(0, 0, 0, .8);
+	width: 100%;
+	min-height: 100vh;
+	max-height: auto;
+}
+
+#home {
+	background: url('../img/pattern.jpg');
+}
+.profileImg {
+	border-radius: 50%;
+	margin: auto;
+}
+
+#resume .colAside {
+	background: url('../img/resume.jpg') center bottom no-repeat;
+	background-size: cover;
+
+	.table {
+		margin: 0;
+	}
+}
+#about-me .colAside {
+	background: url('../img/about-me.jpg') left top no-repeat;
+	background-size: cover;
+	font-size: 16px;
+	line-height: 1.75rem;
+}
+#contact-me .colAside {
+	background: url('../img/contact-me.jpg') right no-repeat;
+	background-size: cover;
+}
+
+footer {
+	width: 100%;
+	margin: 0;
+	padding: 1rem 0;
+	background: #000;
+	color: #fff;
+	text-align: center;
+}
+
+hr.half {
+	width: 50%;
+	border-top-color: grey;
+}
+
+body > div:nth-child(3) {
+	display: none;
+}

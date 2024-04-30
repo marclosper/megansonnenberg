@@ -1,0 +1,68 @@
+/* Navigation Styles */
+
+#navigation {
+	padding: 0;
+}
+
+.navbar-toggler {
+	margin: auto;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 1rem;
+}
+.navbar-toggler:active, .navbar-toggler:focus {
+	outline: none;
+}
+
+#navToggle {
+	max-width: 50%;
+	margin: auto;
+	border-top: 1px solid #fff;
+}
+#navToggle a {
+	color: #fff;
+	padding: 1rem;
+	width: 70%;
+	margin: auto;
+}
+
+@media (min-width: 768px) { 
+	#navigation a:hover {
+		color: #000;
+		background-color: #fff;
+	}
+}	
+
+@media (max-width: 793px) {
+	#navigation {
+		position: fixed;
+		background-color: rgba(0,0,0, .9);
+		z-index: 1;
+	}
+	.toggleHome {
+		display: block;
+	}
+}
+@media (min-width: 794px) {
+	#navigation {
+		position: initial;
+		max-height: auto;
+		font-size: 16px;
+		background-color: rgba(0, 0, 0, .7);
+	}
+	#navToggle {
+		padding: 4rem 0;
+		border: 1px solid #fff;
+	}
+	.toggleHome {
+		display: none;
+	}
+}
+
+@media (min-width: 794px) and (max-width: 991px) {
+	#navToggle {
+		border: none !important;
+		border-top: 1px solid #fff !important;
+		padding: 1rem;
+	}
+}

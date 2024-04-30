@@ -1,0 +1,16 @@
+/* Contact Form Styles */
+
+label {
+    color: #333;
+}
+#contact-form {
+	width: 100%;
+	padding: 0 10%;
+}
+.form-control {
+	width: 100%;
+	border: unset;
+	border-radius: 0;
+	border-bottom: 1px solid #000;
+	margin: 1rem 0;
+}

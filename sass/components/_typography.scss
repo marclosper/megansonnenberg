@@ -1,0 +1,51 @@
+/* Typography Styles */
+body {
+	font-size: 14px;
+}
+a {
+	color: #fff;
+}
+body {
+	font-family: 'Lato', sans-serif;
+}
+h1 {
+	font-size: 1.5rem;
+	font-weight: 900;
+	margin: 0;
+
+	@media (min-width: 576px) {
+		font-size: 2.25rem;
+	}
+
+	@media (min-width: 576px) {
+		font-size: 2.5rem;
+	}
+}
+.profileName {
+	text-transform: uppercase;
+	margin-bottom: .5rem;
+}
+.profileLead {
+
+}
+.profileFirst {
+	font-size: 40px;
+	font-weight: 900;
+}
+.profileLast {
+	font-size: 40px;
+	font-weight: 300;
+}
+.lead {
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.tagline {
+	font-size: 16px;
+	font-weight: 300;
+	margin: 0;
+}
+#about-me {
+	font-size: 16px;
+}
